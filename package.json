@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "webpackdemo",
   "version": "1.0.0",
   "description": "",
@@ -10,21 +9,10 @@
     "watch": "webpack --watch",
     "explain": "实时编译模式 这种方式的",
     "serve": "webpack-dev-server --open"
-=======
-  "*name": "项目的名称 git init 后会出现",
-  "name": "webpack-learn",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
->>>>>>> a05ecc8865471fbb13c22df94436ad190a7be1bd
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-<<<<<<< HEAD
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",
     "express": "^4.16.4",
@@ -35,15 +23,11 @@
     "webpack-cli": "^3.1.2",
     "webpack-dev-middleware": "^3.4.0",
     "webpack-dev-server": "^3.1.10"
-=======
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
   },
   "dependencies": {
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "lodash": "^4.17.10",
     "style-loader": "^0.23.0"
->>>>>>> a05ecc8865471fbb13c22df94436ad190a7be1bd
   }
 }
