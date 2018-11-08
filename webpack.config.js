@@ -7,13 +7,13 @@ module.exports = {
   mode: 'development',
   entry: {
     app: './src/index.js',
-    print: './src/print.js',
-    /** 如果我们要用webpack-dev-middleware 这个中间件的时候*/
-    publicPath: '/' 
+    print: './src/print.js'
+    /** 如果我们要用webpack-dev-middleware 这个中间件的时候 需要设置publicPath 然后配合express 服务使用*/
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[hash].bundle.js'
+    filename: '[name].[hash].bundle.js',
+    publicPath: '/'
   },
   /**
    * 开起sourcemap 定位错误代码功能 如果是production 生产模式，打包后的代码是杂乱无章的，

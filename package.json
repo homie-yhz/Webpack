@@ -8,7 +8,8 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "explain": "实时编译模式 这种方式的",
-    "serve": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "server": "node server.js"
   },
   "author": "",
   "license": "ISC",
