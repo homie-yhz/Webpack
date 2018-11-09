@@ -1,3 +1,7 @@
-export default function() {
-  document.body.append('888')
+export function printMe() {
+  return 'printMe'
+}
+
+export function treeShaking() {
+  return 'treeShaking'
 }
