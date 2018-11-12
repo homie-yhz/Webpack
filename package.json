@@ -13,7 +13,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {                       
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.1",
     "express": "^4.16.4",

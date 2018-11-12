@@ -14,8 +14,8 @@ module.exports = {
   // 模式选择
   mode: 'production',
   entry: {
-    app: './src/index.js',
-    print: './src/print.js'
+    app: './src/index.js'
+    // print: './src/print.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
