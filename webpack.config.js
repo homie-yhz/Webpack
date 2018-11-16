@@ -55,10 +55,10 @@ module.exports = {
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ['file-loader']
+        use: ['file-loader'] 
       }
     ]
-  },
+  }, 
   plugins: [
     new CleanWebpackPlugin('./dist/*.*'),
     new HtmlWebpackPlugin({ template: './index.html' }),
