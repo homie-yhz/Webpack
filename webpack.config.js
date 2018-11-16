@@ -14,8 +14,8 @@ module.exports = {
   // 模式选择
   mode: 'production',
   entry: {
-    app: './src/index.js'
-    // print: './src/print.js'
+    app: './src/index.js',
+    print: './src/print.js'
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -50,7 +50,6 @@ module.exports = {
         // file-loader：
         // 可以通过import在js中引入图片 import png from 'path'
         // 这样的图片会以路径进行展示 而不是 data URL 格式的
-
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader']
       },
