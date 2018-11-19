@@ -9,7 +9,9 @@
     "watch": "webpack --watch",
     "explain": "实时编译模式 这种方式的",
     "start": "webpack-dev-server --open",
-    "server": "node server.js"
+    "server": "node server.js",
+    "prod": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --hot --open --config webpack.dev.js"
   },
   "author": "",
   "license": "ISC",
